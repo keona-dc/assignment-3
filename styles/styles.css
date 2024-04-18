@@ -1,0 +1,166 @@
+/************* your name: 
+
+INSTRUCTIONS:
+Comments starting with TO-DO have been included in this file to describe the needed styling: please translate these to the appropriate CSS declarations. 
+
+Comments starting with TO-DO may be left in for reference or removed entirely: all other comments should be left as-is for ease of review.
+
+You are discouraged from changing any provided CSS.
+
+***** colour palette: *****
+- mustard yellow (used for header, footer, and buttons): #E5AF42
+- cornflower blue (used for hover states): #4278e5
+
+*/
+
+
+/************* site defaults *************/
+body {
+    width: 950px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+.flex{
+    display: flex;
+}
+
+
+/************* site-wide text styling *************/
+h1{
+    font-size: 48px;
+    padding: 0 10%;
+    align-self: center;
+}
+h2{
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+.large-text{
+    font-size: 24px;
+}
+.fake-button{
+    background-color: #E5AF42;
+    text-align: center;
+    line-height: 3;
+    border: black solid 1px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+main a:hover, footer a:hover{
+    text-decoration: underline;
+}
+.fake-button:hover, .blue-hover:hover{
+    text-decoration: underline;
+    background-color: #4278e5;
+    color: white;
+    cursor: pointer;
+}
+
+/************* header/footer styling *************/
+
+header{
+    background-color: #E5AF42;
+    height: 150px;
+    margin-bottom: 25px;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    margin: 25px 0 25px 25px;
+}
+footer{
+    margin-top: 50px;
+    background-color: #E5AF42;
+    height: 60px;
+    font-weight: 200;
+    text-align: center;
+    padding: 30px;
+}
+
+/************* index page *************/
+
+.index img{
+    width: 300px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+.index h2{
+    line-height: 36px;
+
+}
+.index p{
+    margin-bottom: 12px;
+}
+.fake-button{
+    width: 250px;
+    margin-left: 150px;
+}
+
+/************* bookings page *************/
+
+.booking-page{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+}
+.day-selector{
+    margin-bottom: 12px;
+    margin-left: 90px;
+}
+.day-selector li{
+    margin: 0 10px;
+    width: 60px;
+}
+.day-selector li, .small-button{
+    border: solid black 1px;
+}
+.small-button{
+    padding: 5px;
+}
+.top-margin{
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+#clear-button{
+    width: 200px;
+    margin-left: 190px;
+    margin-bottom: 50px;
+}
+.clicked{
+    background-color:#E5AF42;
+}
+
+
+/************* contact page *************/
+#contact-page{
+    height: 420px;
+    text-align: center;
+}
+label{
+    width: 150px;
+    text-align: right;
+    margin-left: 25%;
+}
+input, textarea{
+    width: 300px;
+    margin-left: 20px;
+
+}
+textarea{
+    height: 150px;
+}
+input, textarea, button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    border: solid black 1px;
+    margin-bottom: 24px;
+}
+#submit-button{
+    margin-left: 170px;
+    width: 300px;
+}
